@@ -19,10 +19,50 @@ No desenvolvimento deste projeto, foram utilizadas as seguintes ferramentas e bi
 
 ### 📋 Estrutura dos Dados
 
-A análise foi construída unificando três bases de dados principais:
-1. **Produção Diária (`alpha_sp_producao_diaria.csv`):** Histórico diário contendo horas de uso, temperatura, vibração, total produzido, peças defeituosas e eficiência de cada máquina.
-2. **Cadastro das Máquinas (`dados_complementares_alpha_sp.xlsx` - Aba 1):** Informações de fabricante, modelo, ano de aquisição, capacidade máxima e custo por hora de operação.
-3. **Metas Mensais (`dados_complementares_alpha_sp.xlsx` - Aba 2):** Planejamento mensal de metas de produção diária e limites máximos toleráveis para a taxa de defeitos por setor.
+### O projeto utiliza três fontes principais:
+
+### 🏭 Produção diária
+#### Arquivo:
+
+#### alpha_sp_producao_diaria.csv
+
+### Contém informações como:
+
+máquina.
+data.
+setor.
+produção.
+horas de utilização.
+peças defeituosas.
+
+### ⚙️ Cadastro das máquinas
+#### Arquivo:
+
+#### dados_complementares_alpha_sp.xlsx
+
+Aba: Cadastro_Maquinas
+
+Contém informações como:
+
+fabricante.
+modelo.
+ano de aquisição.
+capacidade máxima diária.
+custo por hora de operação.
+
+### 🎯 Metas mensais
+#### Arquivo:
+
+#### dados_complementares_alpha_sp.xlsx
+
+Aba: Metas_Mensais
+
+Contém:
+
+metas de produção diária.
+limite máximo de taxa de defeitos.
+mês.
+setor.
 
 ---
 
