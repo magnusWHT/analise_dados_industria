@@ -24,10 +24,9 @@ No desenvolvimento deste projeto, foram utilizadas as seguintes ferramentas e bi
 
 ### 🏭 Produção diária
 #### Arquivo:
-
 #### alpha_sp_producao_diaria.csv
 
-### Contém informações como:
+#### Contém informações como:
 
 Máquina;
 Data;
@@ -38,7 +37,6 @@ Peças defeituosas;
 
 ### ⚙️ Cadastro das máquinas
 #### Arquivo:
-
 #### dados_complementares_alpha_sp.xlsx
 
 Aba: Cadastro_Maquinas
@@ -53,7 +51,6 @@ Custo por hora de operação;
 
 ### 🎯 Metas mensais
 #### Arquivo:
-
 #### dados_complementares_alpha_sp.xlsx
 
 Aba: Metas_Mensais
