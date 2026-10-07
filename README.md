@@ -13,7 +13,8 @@ No desenvolvimento deste projeto, foram utilizadas as seguintes ferramentas e bi
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
-![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
+![Google Colab](https://img.shields.io/badge/Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white)
+![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
 
 ---
 
@@ -28,12 +29,12 @@ No desenvolvimento deste projeto, foram utilizadas as seguintes ferramentas e bi
 
 ### Contém informações como:
 
-máquina.
-data.
-setor.
-produção.
-horas de utilização.
-peças defeituosas.
+Máquina;
+Data;
+Setor;
+Produção;
+Horas de utilização;
+Peças defeituosas;
 
 ### ⚙️ Cadastro das máquinas
 #### Arquivo:
@@ -44,11 +45,11 @@ Aba: Cadastro_Maquinas
 
 Contém informações como:
 
-fabricante.
-modelo.
-ano de aquisição.
-capacidade máxima diária.
-custo por hora de operação.
+Fabricante;
+Modelo;
+Ano de aquisição;
+Capacidade máxima diária;
+Custo por hora de operação;
 
 ### 🎯 Metas mensais
 #### Arquivo:
@@ -59,10 +60,10 @@ Aba: Metas_Mensais
 
 Contém:
 
-metas de produção diária.
-limite máximo de taxa de defeitos.
-mês.
-setor.
+Metas de produção diária;
+Limite máximo de taxa de defeitos;
+Mês;
+Setor;
 
 ---
 
