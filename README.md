@@ -4,6 +4,25 @@
 
 Este projeto consiste em uma análise detalhada dos dados de produção diária, cadastro de maquinários e metas mensais da fábrica **Alpha SP**. O objetivo principal é consolidar diferentes fontes de dados para extrair insights estratégicos sobre o desempenho operacional das máquinas, cumprimento de metas de produção, controle de qualidade e custos de operação ao longo de um período de 6 meses (Janeiro a Junho de 2025).
 
+Produção diária
+      │
+      ├──────────────┐
+      │              │
+      ▼              ▼
+Cadastro de      Metas mensais
+máquinas         de produção
+      │              │
+      └──────┬───────┘
+             ▼
+      DataFrame integrado
+          df_completo
+             │
+             ▼
+       Análise de dados
+             │
+      ┌──────┼──────┐
+      ▼      ▼      ▼
+    Custos  Qualidade  Capacidade
 ---
 
 ### 🛠️ Tecnologias e Ferramentas Utilizadas
@@ -14,7 +33,6 @@ No desenvolvimento deste projeto, foram utilizadas as seguintes ferramentas e bi
 ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
 ![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
-![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
 
 ---
 
