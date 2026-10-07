@@ -4,25 +4,6 @@
 
 Este projeto consiste em uma análise detalhada dos dados de produção diária, cadastro de maquinários e metas mensais da fábrica **Alpha SP**. O objetivo principal é consolidar diferentes fontes de dados para extrair insights estratégicos sobre o desempenho operacional das máquinas, cumprimento de metas de produção, controle de qualidade e custos de operação ao longo de um período de 6 meses (Janeiro a Junho de 2025).
 
-Produção diária
-      │
-      ├──────────────┐
-      │              │
-      ▼              ▼
-Cadastro de      Metas mensais
-máquinas         de produção
-      │              │
-      └──────┬───────┘
-             ▼
-      DataFrame integrado
-          df_completo
-             │
-             ▼
-       Análise de dados
-             │
-      ┌──────┼──────┐
-      ▼      ▼      ▼
-    Custos  Qualidade  Capacidade
 ---
 
 ### 🛠️ Tecnologias e Ferramentas Utilizadas
@@ -50,7 +31,6 @@ A análise foi construída unificando três bases de dados principais:
 #### 1. Custos de Operação
 * O custo total de operação de todas as máquinas somou **R$ 163.350,10**.
 * A máquina **Solda Robô 01** foi a mais cara de se operar no período, totalizando **R$ 69.665,40** devido ao seu custo por hora de operação mais elevado.
-<img width="713" height="471" alt="maquina_custo_operacao" src="https://github.com/user-attachments/assets/61e95319-6d53-4955-bc04-ebfa699657a4" />
 
 #### 2. Relação Idade x Qualidade
 * Foi identificada uma correlação de **-0.99** entre o ano de aquisição e a taxa de defeito média das máquinas.
